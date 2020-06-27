@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background: rebeccapurple url(img/header.jpg);
+    color: white;
+}
+
