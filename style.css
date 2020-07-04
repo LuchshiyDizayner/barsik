@@ -1,9 +1,84 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*---------------------*/
+
 body {
-    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .header {
-    background: rebeccapurple url(img/header.jpg);
+    background: url(img/header.jpg) no-repeat ;
     color: white;
+    height: 882px; 
+    background-position: 50% 50%;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.container {
+    margin-left: 52px;
+    margin-right: 52px;
+    
+
+}
+
+.menu {
+    letter-spacing: 2.5px;
+    word-spacing: 30px;
+    margin-bottom: 200px;
+}
+
+.title {
+    font-size: 46px;
+    font-weight: 900;
+    letter-spacing: 14.5px;
+    margin-bottom: 35px;
+}
+
+.offer {
+    width: 520px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.wrapper {
+    margin-left: ;
+    display: inline-block;
+}
+
+.social_media {
+    flex-direction: column;
+    display: inline-block;
+}
+
+.fa-vk, .fa-youtube, .fa-telegram-plane, .fa-instagram, .fa-patreon{
+    color: #6262D9;
+    font-family: Font Awesome 5 Brands;
+    font-size: 30px;
+    display: block;
+
+}
+
+.social_media_wrapper {
+    display: inline-block;
+}
+
+.fab {
+    display: block;
 }
 
